@@ -9,8 +9,10 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.mvc.model.Queries;
-import com.mvc.model.SetterGetter;
+import com.model.Queries;
+import com.model.SetterGetter;
+
+
 
 /**
  * Servlet implementation class ControllerServlet
