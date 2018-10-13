@@ -54,7 +54,6 @@ public class ControllerServlet extends HttpServlet {
 					response);
 		}
 		else if (check.equals("Not registered and rolled back")){
-			request.setAttribute("errMessage", check);
 			request.getRequestDispatcher("/view.jsp").forward(request,
 					response);
 		}

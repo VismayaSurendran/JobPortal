@@ -35,7 +35,7 @@ function inputValidity(){
 	 } 
 	 else if (exp==null || exp=="")
 	 { 
-	 alert(Enter your Work experience); 
+	 alert("Enter your Work experience"); 
 	 return false; 
 	 } 
 	 }
@@ -52,15 +52,23 @@ function inputValidity(){
 		onsubmit="return inputValidity()"
 		style="text-align: center; margin-top: 50px; color: #4613c6">
 		Enter Candidate ID <br> <input type="text" name="ID"><br>
-		<br> Enter Candidate Name <br> <input type="text"
-			name="name"><br> <br> Enter Candidate SkillSet <br>
-		<br> (Java, J2EE, HTML, CSS, React, JavaScript, Python, SQL,
+		<br> 
+		Enter Candidate Name <br> 
+		<input type="text" name="name"><br>
+		<br> 
+		Enter Candidate SkillSet <br>
+		<br> 
+		(Java, J2EE, HTML, CSS, React, JavaScript, Python, SQL,
 		Android, <br> C, C++, Shell Scripting, Servlets, JSP, PHP, Ruby)
-		<br> <input type="text" name="skills"><br> <br>
-		Enter Skill ID <br> <input type="text" name="skill_ID"><br>
-		<br> Enter Candidate Experience(in years) <br> <input
-			type="text" name="exp"><br> <br> <input
-			type="submit">
+		<br> 
+		<input type="text" name="skills"><br> 
+		<br>
+		Enter Skill ID <br> 
+		<input type="text" name="skill_ID"><br>
+		<br> Enter Candidate Experience(in years) <br> 
+		<input type="text" name="exp"><br> 
+		<br> 
+		<input type="submit">
 
 	</form>
 
