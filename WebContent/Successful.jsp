@@ -6,7 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Successful</title>
 </head>
-<body>
-<center><h1>Registration Successful !</h1></center>
+<body bgcolor="black">
+<center><h1 style="color:white;">Registration Successful !</h1></center>
 </body>
 </html>
